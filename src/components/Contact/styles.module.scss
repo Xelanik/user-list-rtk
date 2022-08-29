@@ -1,0 +1,25 @@
+.Contact {
+  width: 100%;
+  max-width: 350px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #d3d3d3;
+  box-shadow: 0px 2px 3px #d3d3d3;
+
+  display: flex;
+  justify-content: space-between;
+
+  .ContactInfo {
+    display: flex;
+    flex-direction: column;
+
+    .FullName {
+      display: flex;
+    }
+
+    .Name {
+      margin-right: 10px;
+      font-weight: bold;
+    }
+  }
+}
